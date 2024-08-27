@@ -1,0 +1,16 @@
+# .PCD v0.7 - Point Cloud Data file format
+VERSION 0.7
+FIELDS x y z
+SIZE 4 4 4
+TYPE F F F
+COUNT 1 1 1
+WIDTH 167
+HEIGHT 1
+VIEWPOINT 0 0 0 1 0 0 0
+POINTS 167
+DATA binary
+ƒ–j=VÇH½â7=}=t=|Ç@½¥g(=’=<½(=‚ˆ=œ_A½/=?¤]=TlK½l(=àc=ŸÁ<½|=I+o=C8½™â	=­€=a±@½eW=E‹‹=åòO½»û<ŽO=¦²J½å·=W•S=‰ª8½ÜÖ=~‹`=·P7½ó5ô<]òp= ¡<½ŸTâ<p)„=vCO½NtÛ<%€@=ìI½…â=Ñ[C=:‚4½Š]é<¿’N=Ò/½b0Ï<æ^=b(5½±_½<ûpt=C‚D½!º³</±»â=šÞºÛe»g¿=þ»híý:®è=)´»ù˜à;€¿ú<–*Ñ»ÓyK<À¦Ñ<±ŠÞ»ˆI=Fç&½µ“<£©`=;§9½@Œ<pÀŠ¼ß-=uÍ»+g¼îP.=dË¢»Ë/¼Dz*=9©å»}Kà»·G#=oÂ¼}ß6»|h=(¼0Í;¤$	=TØ3¼4<ýXâ<5¼jv€<*ñš<¬Å#¼ÕÏS=d<½á»_<ÖcÛ¼Z5=ÈzåºÐˆÇ¼ì›9=æP˜»õê®¼÷9=ðîå»^“¼µB5=P$¼¿µg¼.=ßÏ/¼kÏ%¼%=¢æH¼Ú¬»–{=­&W¼|Gºñ‰=þ”h¼?ÇÏ;Ø+Î<1[\¼ØcF<Ä‚¡<½>a¼[ <…î3<-:Q¼±½ÃL6=5vÖ¹‹Ã½¨A=\ƒ»Íÿ¼ý'A=YvÐ»w˜æ¼8¨@=HÓ¼ÞçÊ¼®Æ<=É/¼Úî«¼Q„5=F=K¼h9‹¼Î’,=£d¼ÊµG¼éà=ä$r¼~nê»Â=Ú}¼´Ì§º!Êæ<»¼Â@¹;?¹¥<ürs¼ä–\<ôj.<På]¼Eªº<Áíº³6¼œ1½ºD=¡;»}}&½âœG=Ñ$¶»ÿ½¼ÌH=ÙO¼«&½¸—F=ÌÔ'¼Ø4ÿ¼Èþ@=%ÂE¼#â¼g;=WÛc¼ŒW¾¼Ù/=/ñv¼”Þ˜¼Oû =5Ìƒ¼ufY¼*=zÏ†¼Âü«»³Â<_°p¼Jz<O?º!nñ»¬r><J²×:&2¼Ýt< õŠ»,ê5¼E÷á<-“¼s¼‰5V½pâG=GÞãºçM½-N=q²œ»‹ÊA½ã[O=±¿î»Ö*4½¯nK=ÿÀ¼XG'½6I=a;¼.Ð½—C=÷åX¼A¼½²’:=¤5q¼T,ñ¼*1=Œã„¼aÊ¼aÃ!=TÀ‹¼‘ñ”¼Ö¯=·o†¼þê€¼qK=…7ž¼v@j<ÝœŠ¼#Ý»ƒ†Â<”šô¼ëÅýº_¨Ç<LÉ¼ô©Ù»'1Ó<¯”«¼xí.¼ˆ|½iŒN=	Â‚º¢ms½.ÚT=9„»j(h½áV=Ø¾Õ»åc[½$ÉS=mà¼)ØM½ùÖO=n.¼XC@½ÀåK=SkN¼àX0½>×B=;]f¼s#½ùœ@=jë„¼pM½ç¿0=0ƒ‹¼,ðö¼r}=C‹¼ÏüÌ¼Æ>
+=Õ“¼½ê¥½²d=×~§;u3¤½Í½x=¤_:›½ƒ½h=D4î¶Ît”½÷Ád=;iüº“É½\Ç`=¯u|»Îv‡½y„^=‚Ã»!½7B\=—z¼TÓt½#JX=b$¼f½µœR=g‰A¼šZX½‹ðL=Ü^¼‚JI½ªE=–ƒy¼0h9½Šz<=(Èˆ¼ê%'½QF.=E½¼¹½t5%=¢¼ßÞ½Q= ü£¼€œ¨½òßU=¡°`;]è§½!o=Ôº/Ò¤½•S|=L¯»‡Íœ½¥qq=RÛÕ»©u•½êj=.g¼9Ž½Ä“b=ƒ¼k‡½áÞ\=Bæ:¼ù½A+W=ÛàW¼lRp½&
+N=	No¼™`½ðêD=~ƒ¼uOR½»;?=ŠH’¼ye<½Ðh(=Œ+“¼”›(½‡¾=]…˜¼¬ç¯½¬@=&Aœ;!³¬½ëM=>ƒ:.‰©½è([=D4»Ôi¦½dh=jmÔ»P ¢½*r=U*!¼Ûóš½‡ûh=/¶7¼lâ’½†^=œK¼²‹½A£V=9“e¼7Ð„½Å£R=N½‚¼iÎw½RD=°;Š¼ƒØh½Tå<=òŽ—¼VWU½æ(+=¾˜œ¼š6C½âß=¦¥¤¼Åý²½A3=ôæ<;ù¯½?Q==ðKº^â«½ë–J=É¹‹»ÈÑª½29b=×¨¼n¬¦½‘Jj=ÉŽH¼v¸Ÿ½q‰d=ˆ
+e¼»õ–½˜'V=‘Fs¼“ÝŽ½D<K=wÏƒ¼÷]†½w™>=X¶Œ¼'Aw½ '=xS¼ãg½ùu=ân™¼Yz±½+¬,=õ»A®½*ú9=5½½»à®½õTZ=Ô"<¼¹¬©½w8]=‘;g¼“P¡½–†P=§Sx¼Pè˜½;×C=¹á„¼Ã½½>0=“ˆ¼Û:‡½“
+'=”¼Û™¶½Õã)=`´¤»”°²½T¿3=ú¦	¼•Ž±½9~K=ÝüW¼°‡¨½UJ;=jc¼…Š¡½oƒ5=:€¼<ð›½e®6=Èƒ”¼Ÿu·½D/=¬L7¼×ã²½¨5=Žwh¼

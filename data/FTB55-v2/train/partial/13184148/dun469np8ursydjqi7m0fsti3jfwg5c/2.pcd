@@ -1,0 +1,19 @@
+# .PCD v0.7 - Point Cloud Data file format
+VERSION 0.7
+FIELDS x y z
+SIZE 4 4 4
+TYPE F F F
+COUNT 1 1 1
+WIDTH 208
+HEIGHT 1
+VIEWPOINT 0 0 0 1 0 0 0
+POINTS 208
+DATA binary
+„^N=…üx½$¼/Q=Zök½&ùb¼0N=že½×/¼Û†I=8Ra½;“®¼€ *=å.|½ÜºÊ¼JA=s'q½¿T
+¼ªZF=Òa½ÿI¼SæC=Ë>Z½ëµƒ¼ü­9=â“\½›‘¡¼×t"=:*n½&^¾¼Z21=×[l½`–ß»~9=8GY½ÖX0¼Ž£6=óoR½ïÚm¼ø˜1=œ¦N½lX•¼$¼$=‘þS½6³¼ô)=ì`^½ÀÚ®»Qg.=üeN½X¼	÷+=l‘G½ßàT¼rì&=ÈC½dÛˆ¼–i=R L½]<¦¼r¹=U~V½û1v»8~=É•I½Îù»„J!=å²<½Ïæ;¼í?=é8½¹¼x¼*S=I1>½ø™¼[›=ÓˆH½pì»*=ö´A½7Æ»þ=]Ô1½¾ì"¼Hñ=ô1½"_¼®ž=¥J3½'r¼Š@=Ó @½ÔÜ4ºùr=Ë6½6”»yñ=Öõ&½®ò	¼ãæ=,#½˜ÈF¼t ù<¸c%½ž7¼^}Ô<3•0½v\ž¼ÓÀñ<k³8½ñ¾j:¯=uá%½È0J»ôD=O½<ñá»šÃý<rO½„{.¼Ë¼ã<È½¿hi¼C«¹<a (½R‚‘¼`	â<ìø ½%¿ºŠ‚ò<<½Æ±»àoè<Ÿs
+½ª‡¼pÉ<¸–½1¾O¼"Ú®<Z¸½]…¼‘ïÑ<•½ïï°7Ð.Ý<2`½&4»%Ó<—/ÿ¼¢'ù»xQ¾<½¿½
+8¼½¿ž<_Ò	½†~r¼ÀíÑ<Š™ø¼¹l¯:a7Í<
+ë¼ËŸ»8'Ã< ‹ã¼/¿È»oT®<Òç¼A¶¼%L‰<¤Ìý¼deY¼š¼<äáâ¼Ã…;;’J½<~Ï¼šôxºë<³<yñÇ¼˜o˜»dû˜<Ò¼1¼¼]ƒr<çâ¼Óó@¼ro–<NAò¼\{	<³ª¬<yDÇ¼ïÕ;ah­<Éí³¼!Ï:=]£<¤b¬¼¶qP»J‰<Øw¶¼þÜ»Ë¦G<6>Ì¼èà'¼–Ï‹< ªÐ¼ïŽ <Æœ<ß±«¼!Ð½;–$˜<]Fž¼x;qŽ<7»–¼ÂÙÙºœWr<}åš¼¨œ¬»¼±'<²’°¼ü¼æ°w<jµ¼Š8<îëŒ<*¼x±í;ßÃ<šÙy¼„Àa;¸<¢p¼ø®g¹ä§R<ä»~¼(¨x»ìÑ<ÿñ”¼ü^î»È’<a¼/I<ô8z<;Zi¼ú¼<|<ùB¼)® ;Ýûg<î3¼ãXŸ:j3<qÂG¼¶H»´Ð;;¸r¼ÚÒ½»8<â¸{¼wkh<¬ÈD<x¶I¼'›(<‰W<jü¼?WÑ;{‘H<áMú»S/;Ò…<—s¼„SºÎ²¦;æ0¼ÚìŽ»‰e<]°D¼e#€<à:;<‚N÷».`><»B<`Ÿ»"ÿ;SÀ.<ô\»ßx†;««<l‚‘»ä
+:ãÏ“;æÄ»‹¤C»x˜ñ;y½¼×
+Œ<˜Ê<ü¸»Z>X<3)<	“šºäÀ<½…<<€!ºC¶;ìðà;–1Ó¹²ªý:_fV;ºCþº|pÍº#ù;ë¬dº¬Ñm<(Ý	<=³;ëo.<7<útv;%°â;|ß¸;c‹m;'ŽZ;çs2:7:ÐGY¸–~¤;­oæ:èIƒ<U¿;AJœ;jG<ð?Ï;ç]ó;¶„<àOœ;Ôè<#š;\€;%ö;Dô•:#æ:%òq;<<:l;P¡ý;[E_<¹t‘;âî/<²  <wS;×Ù><¿jÈ;—3: ¼<<uŠ&;dŽ»¤ <†Uº;öL9\^ñ;îÁ›<ÏE;Çz@<¿u<KœT;qq<¦6<AÖ;=ÿ‚<õ¶ô;&ÄºC—x<šÇ;–æˆ»[ö_<}§ÿ9Ÿæ±º`Á4<p>§<:»°eI<ÖÞˆ<í`±9«C‹<•»O<ààœ:3¤£<&ã<Ÿ'·4«<àwª;+#A»l¤<ÎaÞ:Žò†»b©<C¥”<ŠJöºVu£<³Àg<£.ºP”¾<tY(<´všºÃœË<’×;Â°I»ŒjÍ<.¥D;'Ü»/<Á<%pî¹¥æ»\’<sF¡<H’u»ro¾<01<ÚôR»ÌßÓ<Ñ@<ó/»»Fé<‰¼<ëìg»(xó<)¥;b­½»cò<‘…K:B­¼¸gæ<ä³/»Öˆ	¼—Ã<¸<MG¦»¯¿î<¯4X<xj«»²„þ<“$<ëø¤»/†=Ž»;!ÒÀ»1›=Kÿ;G¼-¿=¯î¼º¸?¼t!é<³˜<ÜÈ*¼ÉÉí<Œu<¼fÜ»)= ü1<¥»Õ»-H=¿Qé;/{ñ»kZ=úÔc;X˜¼¸k!=Ð+¹ÍV1¼•=íq»¸=¼U=
+¬…<­4¼v¼=ÛM<.«¼&?#=!z<Ñ)¼…r,=½ž;9õ¼•€1=Ë©ž:‰,¼ª-5=ê»Å\W¼v\3=â~Á»hèx¼¦¡=ÙÇ’<À[{¼H{=§.h<fO¼èR(=áÙ&<ÌÔ.¼è`8=xIÎ;!È6¼OÌ>=n«,;©Þ8¼„”F=„ñˆº=;R¼áH=°D—»fLw¼úrH=y¼‘2¼_(=ŠS}<<hm¼û©5=ý&><G^¼	A=!Èÿ;Ê…T¼ L= è„;_‡V¼ÖÕS=’Æ9}T^¼Z9Z=ðU»ÂÑq¼1â]=à»‡ˆ¼/Ó^=Ø_*¼†n±¼­‚.=ƒ]<S•¼:ñC=7<lß¼+>U=E¶;:øy¼Ãµ_=›8ï:løu¼!Íh=»äôºáÅ¼šÏm=Tl³»ˆ¼!Ñr=šÀ¼¬û£¼[n=8fM¼Yy¿¼‹êi=S3ƒ¼ðë²¼_uJ=¢5<OÒ¹¼D‚O=ˆ‰ò;î‘”¼·Ýh=ƒZ;¨ˆ’¼&ðq=aÂ¹Zu¼Ðþz=PÜ„»ö¨¼ºæw=pXö»*6Ù¼\j=r1¼ôÙñ¼wg=ük¼+±Ë¼˜u[=ñ<å½¼±ði=2¤;kª¼ß{=åå“:õe×¼,šn=¨»àþ¼„Ùd=µ»Ù½Ú4g=•¼'ÄÆ¼ÐÝy=³žÐ;0ñ¼øÆn=ë¤I;ël½mmj=IÉ¹MI½‰f=ºT}»

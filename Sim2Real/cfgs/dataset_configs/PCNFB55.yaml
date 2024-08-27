@@ -1,0 +1,9 @@
+NAME: PCNSkel
+CATEGORY_FILE_PATH: ../data/FTB55-v2/FTB55-v2.json
+N_POINTS: 16384
+N_RENDERINGS: 8
+N_SKEL_POINTS: 100
+PARTIAL_POINTS_PATH: ../data/FTB55-v2/%s/partial/%s/%s/%d.pcd
+COMPLETE_POINTS_PATH: ../data/FTB55-v2/%s/complete/%s/%s.pcd
+COMPLETE_SEGMENTS_PATH: ../data/FTB55-v2/%s/segment/%s/%s.npz
+CARS: FALSE

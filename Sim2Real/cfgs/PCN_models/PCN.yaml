@@ -1,0 +1,52 @@
+optimizer : {
+  type: Adam,
+  kwargs: {
+  lr : 0.0001,
+  weight_decay : 0
+}}
+scheduler: {
+  type: StepLR,
+  kwargs: {
+  step_size: 50,
+  gamma : 0.7
+}}
+
+dataset : {
+  train : { _base_: cfgs/dataset_configs/PCN.yaml, 
+            others: {subset: 'train'}},
+  val : { _base_: cfgs/dataset_configs/PCN.yaml, 
+            others: {subset: 'test'}},
+  test : { _base_: cfgs/dataset_configs/PCN.yaml, 
+            others: {subset: 'test'}}}
+
+NAME: PCN
+
+model : {
+  NAME: PCN, num_pred: 16384, encoder_channel: 1024}
+total_bs : 128  
+step_per_update : 1
+max_epoch : 500
+
+loss: {
+  consider_metric: CDL1,  # the following paras are for DCD loss
+  kwargs: {
+    alpha: 200,
+    n_lambda: 0.5
+  },
+  varying_constant: [0.01, 0.1, 0.5, 1],
+  varying_constant_epochs: [5, 15, 30],
+  additional_metrics: {
+    repulsion: 0.1
+  }
+}
+
+WANDB_API_KEY: e52b5edc710f7c0a69e64db16142d4503ef74e98
+wandb: {
+  username: cornell-cair,
+  project_name: Point_Cloud_Completion,
+  group_name: Reproduce,
+  run_name: "",                         # same to exp_name in args
+  mode: online,
+  enable: True,
+  dir: ""                               # depend on exp_dir in args
+}
