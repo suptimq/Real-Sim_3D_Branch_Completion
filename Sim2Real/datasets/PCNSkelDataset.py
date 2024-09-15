@@ -26,6 +26,7 @@ class PCNSkel(data.Dataset):
         self.complete_point_segments_path = config.COMPLETE_SEGMENTS_PATH
         self.category_file = config.CATEGORY_FILE_PATH
         self.npoints = config.N_POINTS
+        self.npoints_partial = config.N_PARTIAL
         self.nskel_points = config.N_SKEL_POINTS
         self.subset = config.subset
         self.cars = config.CARS
@@ -37,16 +38,16 @@ class PCNSkel(data.Dataset):
             if config.CARS:
                 self.dataset_categories = [dc for dc in self.dataset_categories if dc['taxonomy_id'] == '02958343']
 
-        self.n_renderings = 8 if self.subset == 'train' else 1
+        self.n_renderings = config.N_RENDERINGS if self.subset == 'train' else 1
         self.file_list = self._get_file_list(self.subset, self.n_renderings)
         self.transforms = self._get_transforms(self.subset)
 
-    def _get_transforms(self, subset, keys=['partial', 'gt', 'centers', 'center_directions']):
+    def _get_transforms(self, subset, keys=['partial', 'gt', 'centers']):
         if subset == 'train':
             return data_transforms.Compose([{
                 'callback': 'RandomSamplePoints',
                 'parameters': {
-                    'n_points': 2048
+                    'n_points': self.npoints_partial
                 },
                 'objects': ['partial']
             }, {
@@ -57,7 +58,7 @@ class PCNSkel(data.Dataset):
                 'parameters': {
                     'n_points': self.nskel_points
                 },
-                'objects': ['centers', 'center_radii', 'center_directions']
+                'objects': ['centers', 'center_radii']
             }, {
                 'callback': 'ToTensor',
                 'objects': keys
@@ -66,7 +67,7 @@ class PCNSkel(data.Dataset):
             return data_transforms.Compose([{
                 'callback': 'RandomSamplePoints',
                 'parameters': {
-                    'n_points': 2048
+                    'n_points': self.npoints_partial
                 },
                 'objects': ['partial']
             }, {
