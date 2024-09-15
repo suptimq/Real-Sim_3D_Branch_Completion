@@ -4,7 +4,31 @@
 
 ### Requirements
 
-Please follow the [PoinTr](https://github.com/yuxumin/PoinTr) repository to install the required packages.
+1. Create conda environment
+```shell
+conda create -n sim_joint_branch python=3.9
+```
+
+2. Install PyTorch
+
+```shell
+conda install pytorch==1.12.1 torchvision==0.13.1 cudatoolkit=11.3 -c pytorch
+```
+
+3. Install libraries
+
+```shell
+# Torch Scatter
+pip install torch-scatter -f https://data.pyg.org/whl/torch-1.12.1+cu113.html
+# PointNet++
+pip install "git+https://github.com/erikwijmans/Pointnet2_PyTorch.git#egg=pointnet2_ops&subdirectory=pointnet2_ops_lib"
+# GPU kNN
+pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.2/KNN_CUDA-0.2-py3-none-any.whl
+# Others
+pip install -r requirements.txt
+```
+
+Please follow the [PoinTr](https://github.com/yuxumin/PoinTr) repository to install the `Chamfer_Distance` and `EMD` extensions.
 
 ### Dataset
 
